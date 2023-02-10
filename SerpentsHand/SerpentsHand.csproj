@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>SerpentsHand</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="EXILED" Version="6.0.0-beta.26" />
+    <PackageReference Include="Lib.Harmony" Version="2.2.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\Desktop\Dev\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="CommandSystem.Core">
+      <HintPath>..\..\..\References\CommandSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.API" />
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\References\Assembly-CSharp-internalized.dll</HintPath>
+    </Reference>
+    <Reference Include="0Harmony" />
+    <Reference Include="Exiled.Events" />
+    <Reference Include="Mirror">
+      <HintPath>..\..\..\Desktop\Dev\Mirror.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>/usr/share/dotnet/shared/Microsoft.NETCore.App/3.1.10/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Exiled.Permissions" />
+    <Reference Include="Exiled.CustomItems" />
+    <Reference Include="UnityEngine">
+      <HintPath>..\..\..\Desktop\Dev\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\Desktop\Dev\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\Desktop\Dev\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
